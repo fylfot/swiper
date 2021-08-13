@@ -68,6 +68,7 @@ export class SwiperComponent implements OnInit {
   @Input() url: SwiperOptions['url'];
   @Input() edgeSwipeDetection: boolean | string;
   @Input() edgeSwipeThreshold: number;
+  @Input() skipSystemActions: boolean;
   @Input() skipEmitEvents: boolean;
   @Input() freeMode: SwiperOptions['freeMode'];
   @Input() freeModeMomentum: SwiperOptions['freeModeMomentum'];

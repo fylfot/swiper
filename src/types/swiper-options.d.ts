@@ -558,6 +558,7 @@ export interface SwiperOptions {
    */
   slideToClickedSlide?: boolean;
 
+  skipSystemActions?: boolean;
   /**
    * If enabled then not produce events
    *

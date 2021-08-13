@@ -253,6 +253,10 @@ export default function onTouchEnd(event) {
     return;
   }
 
+  if (params.skipSystemActions) {
+    return;
+  }
+
   // Find current slide
   let stopIndex = 0;
   let groupSize = swiper.slidesSizesGrid[0];

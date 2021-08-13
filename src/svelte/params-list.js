@@ -18,6 +18,7 @@ const paramsList = [
   'url',
   '_edgeSwipeDetection',
   '_edgeSwipeThreshold',
+  '_skipSystemActions',
   '_skipEmitEvents',
   '_freeMode',
   '_freeModeMomentum',

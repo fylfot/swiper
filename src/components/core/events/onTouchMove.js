@@ -229,6 +229,11 @@ export default function onTouchMove(event) {
       time: now(),
     });
   }
+
+  if (params.skipSystemActions) {
+    return;
+  }
+
   // Update progress
   swiper.updateProgress(data.currentTranslate);
   // Update translate

@@ -27,6 +27,9 @@ export default {
   edgeSwipeDetection: false,
   edgeSwipeThreshold: 20,
 
+  skipSystemActions: false,
+  skipEmitEvents: false,
+
   // Free mode
   freeMode: false,
   freeModeMomentum: true,
