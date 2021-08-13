@@ -69,6 +69,7 @@ export default {
   emit(...args) {
     const self = this;
     if (!self.eventsListeners) return self;
+    if (self.params.skipEmitEvents) return self;
     let events;
     let data;
     let context;

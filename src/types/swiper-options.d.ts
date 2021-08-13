@@ -558,6 +558,13 @@ export interface SwiperOptions {
    */
   slideToClickedSlide?: boolean;
 
+  /**
+   * If enabled then not produce events
+   *
+   * @default false
+   */
+  skipEmitEvents?: boolean;
+
   // Freemode
 
   /**
